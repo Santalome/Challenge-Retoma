@@ -1,0 +1,118 @@
+:root{
+    --white-color: hsl(0, 0%, 98%);
+    --gray-color: hsl(0, 0%, 41%);
+    --black-color: hsl(0, 0%, 8%);
+
+    --fw-normal: 500;
+    --fw-bold: 700;
+}
+
+body{
+    font-family: 'Epilogue';
+}
+
+.main-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.primary-list{
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.primary-list li a {
+    text-decoration: none;
+    color: var(--gray-color);
+    font-weight: var(--fw-normal);
+}
+
+.li-flex a{
+    display: flex;
+    align-items: center;
+}
+
+.li-flex a img{
+    margin-left: 8px;
+}
+
+.secondary-list{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.secondary-list li, .secondary-list li a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: var(--fw-bold);
+}
+
+.register{
+    border: 3px solid var(--black-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+main{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.left-side{
+    height: 971px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-section{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title{
+    font-size: 100px;
+    font-weight: var(--fw-bold);
+    color: var(--black-color);
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+
+.parragraph{
+    width: 60%;
+    font-size: 20px;
+    color: var(--gray-color);
+    font-weight: var(--fw-normal);
+    margin-bottom: 90px;
+}
+
+.leftside-button{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 18px 30px;
+    font-weight: var(--fw-bold);
+    font-size: 18px;
+}
+
+.title{
+    
+}
+
+
+
